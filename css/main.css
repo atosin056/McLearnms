@@ -1,0 +1,222 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Khula';
+}
+.navbar{
+    background: #FBFCFE;
+  	height: 100px;
+}
+.nav-item:hover .sub-menu {
+   display: block;
+}
+.sub-menu {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 150px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    padding: 12px 16px;
+    z-index: 1;
+    font-weight: 400; /* Matching font-weight */
+}
+
+.sub-menu a {
+    color: black;
+    padding: 8px 0;
+    text-decoration: none;
+    display: block;
+    font-weight: 400; /* Matching font-weight */
+}
+.sub-menu a:hover {
+    background-color: #ddd;
+}
+.navbar-collapse{
+	justify-content: flex-start !important;
+}
+.get-started{
+	background: #0041AA;
+	border: none;
+	width: 190px;
+	height: 44px;
+	padding: 10px;
+	border-radius: 8px;
+	color: white;
+	font-weight: 700;
+	font-size: 16px;
+}
+.header{
+	background: white;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.category-tag{
+    display: flex;
+    justify-content: center;
+    align-items: center;	
+    border-radius: 100vw;
+    -webkit-transition-property: none;
+    transition-property: none;
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: 700;
+    text-decoration: none;
+    margin-top: 15px;
+    margin-left: 15px;
+    width: 166px;
+    height: 42px;
+}
+.section-1{
+	height: auto;
+	margin-bottom: 80px;
+}
+.section-2{
+	height: auto;
+	margin-top: 80px;
+	margin-bottom: 80px;
+}
+.header-text{
+	font-weight: 700;
+	font-size: 40px;
+	text-align: center;
+	line-height: 60px;
+	color: #060C3C;
+}
+.course-catalogs{
+	width: 100%;
+	background: white;
+	border: 1px solid #D4DFF1;
+	height: 55px;
+	display: flex;
+	align-items: center;
+	padding-left: 15px;
+	border-radius: 7px;
+	border-top: none;
+}
+.cards{
+	padding: 25px;
+	background: white;
+	box-shadow: 1px 1px 10px #D4DFF1;
+	margin-top: 50px !important;
+}
+.section-3{
+	background: #F5F7FC;
+	height: auto;
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+.section-4{
+	height: auto;
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+.faq-answer{
+	width: 100%;
+	background: #F5F7FC;
+	height: auto;
+	margin-top: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-radius: 7px;
+	padding-left: 20px;
+	border-top: none;
+}
+.couse-catalogs{
+	width: 100%;
+	background: white;
+	border: 1px solid #D4DFF1;
+	height: auto;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	flex-direction: column;
+	padding-left: 15px;
+	border-radius: 7px;
+	border-top: none;
+}
+.transform1{
+	margin-top: 50px;
+}
+.learn{
+	font-size: 53px;font-weight: 700;line-height: 64.25px;color: #060C3C;
+}
+.future{
+
+}
+.footer{
+	background: #0041AA;
+	width: 100%;
+	height: 100%;
+	margin-top: 100px;
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+.transform2{
+	margin-top: 150px;
+}
+/* Styles for screens with a maximum width of 768 pixels (typically tablets and smaller screens) */
+@media only screen and (max-width: 768px) {
+.learn{
+	font-size: 32px;
+	font-weight: 700;
+	line-height: 45px;
+	letter-spacing: 0em;
+	text-align: left;
+}
+.section-first{
+  	
+}
+.navbar{
+  	width: 100%;
+  }
+.future{
+  	margin-top: 20px;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 29px;
+	letter-spacing: 0em;
+	text-align: left;
+}
+.image1{
+  	display: none;
+}
+.header-text{
+	font-size: 27px;
+	font-weight: 700;
+	line-height: 41px;
+	letter-spacing: 0em;
+	text-align: center;
+}
+.image2{
+	display: none;
+}
+.transform1{
+ 	margin-top: 15px;
+}
+.transform2{
+  	margin-top: 30px;
+}
+
+}
+
+/* Styles for screens with a minimum width of 769 pixels (typically larger screens like desktops) */
+@media only screen and (min-width: 769px) {
+  /* Add your styles for larger screens here */
+}
+
+/* Styles for screens with a width between 768 and 1024 pixels */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  /* Add your styles for screens within this range here */
+}
+
+/* Styles for screens with a specific resolution */
+@media only screen and (min-resolution: 300dpi) {
+  /* Add your styles for screens with high resolution here */
+}
+
+/* Styles for screens in landscape orientation */
+@media only screen and (orientation: landscape) {
+  /* Add your styles for landscape orientation here */
+}
