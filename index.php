@@ -22,9 +22,9 @@
 
         <body>
 
-        <nav class="navbar navbar-expand-lg tosin">
-          
-          <div class="container">
+        
+
+        <div class="containerr">
           
           <a class="navbar-brand" href="#"><img src="images/logo.png"></a>
           
