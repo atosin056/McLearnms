@@ -22,7 +22,7 @@
 
         <body>
 
-        <nav class="navbar navbar-expand-lg">
+        <nav class="navbar navbar-expand-lg tosin">
           
           <div class="container">
           
