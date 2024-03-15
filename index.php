@@ -22,7 +22,8 @@
 
         <body>
 
-        
+
+        <navbar class="navbar navbar-expand-lg">
 
         <div class="containerr">
           
