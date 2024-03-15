@@ -22,9 +22,9 @@
 
         <body>
 
-        <nav class="navbar navbar-expand-lg">
-          
-          <div class="container">
+        <navbar class="navbar navbar-expand-lg">
+
+        <div class="container">
           
           <a class="navbar-brand" href="#"><img src="images/logo.png"></a>
           
